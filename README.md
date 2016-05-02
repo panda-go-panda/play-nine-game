@@ -1,3 +1,15 @@
+# Play Nine
+
+## http://panda-go-panda.github.io/play-nine-game/
+
+### Installation
+```
+npm install
+npm start
+```
+
+After the server starts, open http://localhost:3000 in browser.
+
 ### Rules
 
 * You get a random number of stars from 1 to 9. You need to select one or more numbers that would sum up to the value of the stars.
