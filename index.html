@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sample App</title>
+    
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+    
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body>
+    <div id="root" class="container"></div>
+    <div class="container">
+      <div class="well">
+        <h3>Rules</h3>
+        <ul>
+          <li>You get a random number of stars from 1 to 9. You need to select one or more numbers that would sum up to the value of the stars.</li>
+          <li>Press "=" button to check your answer. If it's wrong, you can unselect number from answer frame by clicking. If you're right, click again button "=" to continue the game. </li>
+          <li>You will win when you use all the numbers in the bottom frame. Used numbers get green color.</li>
+          <li>If you end up with a number of stars that has no possible correct combination, you can redraw it for 5 times.</li>
+          <li>If you still end up with a number of stars with no possible correct combination out of all the remaining numbers, the you loose the game. </li>
+          <li>Have fun!</li>
+        </ul>
+      </div>
+    </div>
+    <script src="/static/bundle.js"></script>
+  </body>
+</html>
